@@ -40,7 +40,7 @@ df <- agg_extra[keeps]
 agg_extra.long<-melt(df,id.vars="clean_names")
 
 ######################################################################
-### INSIGTH 1: Plot showing exports of goods to other Member States ###
+### INSIGHT 1: Plot showing exports of goods to other Member States ###
 ######################################################################
 #Sort
 agg_intra$clean_names <- factor(agg_intra$clean_names, levels = agg_intra$clean_names[order(-agg_intra$intra)])
@@ -65,7 +65,7 @@ agg_intra$clean_names <- factor(agg_intra$clean_names, levels = agg_intra$clean_
  
  
  ######################################################################
- ### INSIGTH 2: Plot showing exports of goods to intra vs. extra EU ####
+ ### INSIGHT 2: Plot showing exports of goods to intra vs. extra EU ####
  ######################################################################
  
  ### Plot 2
